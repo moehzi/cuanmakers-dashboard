@@ -13,6 +13,8 @@ module.exports = {
           500: "#00c4fd",
         },
         dark: "#333333",
+        secondary: "#262D3A",
+        purple: "#AB52F3",
       },
     },
   },

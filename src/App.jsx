@@ -1,7 +1,9 @@
+import { Sidebar } from "./parts/index";
+
 function App() {
   return (
-    <div>
-      <h1>Muhammad Nur Faisi S</h1>
+    <div className="flex">
+      <Sidebar />
     </div>
   );
 }
