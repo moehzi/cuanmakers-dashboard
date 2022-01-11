@@ -12,7 +12,7 @@ module.exports = {
           400: "#00E0F3",
           500: "#00c4fd",
         },
-        dark: "#333333",
+        dark: "#1B1E2A",
         secondary: "#262D3A",
         purple: "#AB52F3",
       },
