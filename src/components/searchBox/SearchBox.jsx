@@ -3,7 +3,7 @@ import searchImg from "/assets/icons/SEARCH.svg";
 
 function SearchBox() {
   return (
-    <div className="flex-1 max-w-[685px] bg-secondary flex rounded-[12px]">
+    <div className="flex-1 bg-secondary flex rounded-[12px]">
       <button
         type="submit"
         class="flex py-4 items-center justify-center pr-2 pl-4"

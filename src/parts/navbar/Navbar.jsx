@@ -1,5 +1,5 @@
 import React from "react";
-import { NotifAndChat, SearchBox, WalletBox } from "../../components";
+import { NotifAndChat, Profile, SearchBox, WalletBox } from "../../components";
 
 function Navbar() {
   return (
@@ -7,6 +7,7 @@ function Navbar() {
       <SearchBox />
       <WalletBox />
       <NotifAndChat />
+      <Profile />
     </div>
   );
 }
