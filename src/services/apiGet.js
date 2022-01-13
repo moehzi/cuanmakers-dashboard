@@ -7,3 +7,11 @@ export async function getArtist() {
   console.log(response.data);
   return response.data;
 }
+
+export async function getActivty() {
+  const response = await axios.get(
+    "https://6196ed95af46280017e7e326.mockapi.io/waveast/api/nft-marketplace/recent-activities"
+  );
+  console.log(response.data);
+  return response.data;
+}

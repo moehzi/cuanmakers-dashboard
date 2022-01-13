@@ -14,6 +14,7 @@ module.exports = {
         },
         dark: "#1B1E2A",
         secondary: "#262D3A",
+        "card-activty": "rgba(255, 255, 255, 0.05)",
         purple: {
           "sidebar-active": "#AB52F3",
           "banner-1": "#6763FD",
