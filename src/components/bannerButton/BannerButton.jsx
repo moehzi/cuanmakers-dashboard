@@ -2,8 +2,8 @@ import React from "react";
 
 function BannerButton(props) {
   return (
-    <button className="px-6 py-3 bg-white rounded-lg">
-      <span className="text-base font-medium text-transparent bg-clip-text bg-gradient-to-r from-purple-banner-1 to-purple-banner-2">
+    <button className="px-3 py-1 bg-white rounded-lg md:px-6 md:py-3">
+      <span className="text-sm font-medium text-transparent sm:text-base bg-clip-text bg-gradient-to-r from-purple-banner-1 to-purple-banner-2">
         {props.text}
       </span>
     </button>

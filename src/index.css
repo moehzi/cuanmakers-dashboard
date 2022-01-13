@@ -4,7 +4,7 @@
 
 @layer base {
 	h1 {
-		@apply text-2xl font-bold md:text-4xl font-primary;
+		@apply text-base sm:text-2xl font-bold md:text-4xl font-primary;
 	}
 
 	h2 {
@@ -16,7 +16,7 @@
 	}
 
 	h4 {
-		@apply text-lg font-bold font-primary;
+		@apply text-sm sm:text-lg font-bold font-primary;
 	}
 
 	body {
