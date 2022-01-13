@@ -3,9 +3,9 @@ import { BannerButton } from "../../components";
 
 function Banner() {
   return (
-    <div className="relative flex flex-col gap-6 px-8 py-6 overflow-hidden text-white grow md:py-14 rounded-xl bg-gradient-to-r from-purple-banner-1 to-purple-banner-2">
+    <div className="relative flex flex-col gap-6 px-8 py-6 overflow-hidden text-white grow md:py-14 rounded-xl bg-gradient-to-r from-purple-banner-1 to-purple-banner-2 max-h-80">
       <h1>One Stop NFT Marketplace</h1>
-      <h4 className="font-normal">
+      <h4 className="font-normal ">
         Discover limited-edition digital artwork
         <br />
         Create, Sell, and Collect yours now!
