@@ -1,4 +1,4 @@
-import { Banner, Navbar, Sidebar } from "./parts/index";
+import { Banner, Navbar, Sidebar, TopArtist } from "./parts/index";
 
 function App() {
   return (
@@ -6,8 +6,9 @@ function App() {
       <Sidebar />
       <div className="flex flex-col w-full gap-[28px] pt-5 sm:pr-5 pr-2">
         <Navbar />
-        <div>
+        <div className="flex flex-col gap-6 lg:flex-row">
           <Banner />
+          <TopArtist />
         </div>
       </div>
     </div>

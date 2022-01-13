@@ -6,3 +6,4 @@ export { default as NotifAndChat } from "./notifandchat/NotifAndChat";
 export { default as Profile } from "./profile/Profile";
 export { default as ButtonSidebar } from "./buttonSidebar/ButtonSidebar";
 export { default as BannerButton } from "./bannerButton/BannerButton";
+export { default as Artist } from "./artist/Artist";

@@ -12,7 +12,7 @@
 	}
 
 	h3 {
-		@apply text-xl font-bold md:text-3xl font-primary;
+		@apply text-lg font-bold md:text-xl font-primary;
 	}
 
 	h4 {
