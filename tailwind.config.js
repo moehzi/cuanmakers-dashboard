@@ -14,7 +14,11 @@ module.exports = {
         },
         dark: "#1B1E2A",
         secondary: "#262D3A",
-        purple: "#AB52F3",
+        purple: {
+          "sidebar-active": "#AB52F3",
+          "banner-1": "#6763FD",
+          "banner-2": "#B84EF1",
+        },
       },
     },
   },
