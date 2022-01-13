@@ -6,7 +6,7 @@ function Artist(props) {
   return (
     <div className="flex items-center justify-between mt-6">
       <div className="flex items-center gap-2 text-white">
-        <h3>{props.id}</h3>
+        <h3>{props.id}. </h3>
         <Avatar name={props.name} size="40" className="rounded-full" />
         <div className="flex flex-col gap-1 text-white">
           <h5 className="text-sm">{props.name}</h5>
