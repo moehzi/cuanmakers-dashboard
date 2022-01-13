@@ -17,11 +17,13 @@ function Navbar() {
       {isOpen && (
         // MenuModal
         <div className="top-0 left-0 w-full overflow-hidden fixed h-screen bg-gray-900/95 p-4 flex flex-col z-50 gap-[1rem]">
-          <div className="flex justify-between items-center">
+          <div className="flex items-center justify-between">
             <Hamburger toggled={isOpen} color="#B84EF1" toggle={setOpen} />
             <div className="flex items-center justify-center">
               <img src="/assets/icons/ETHERUM.svg" alt="Etherium" />
-              <h1 className="ml-[4px] text-white text-lg">CuanMakers</h1>
+              <h1 className="ml-[4px] text-transparent text-lg bg-clip-text bg-gradient-to-r from-purple-banner-1 to-purple-banner-2">
+                CuanMakers
+              </h1>
             </div>
             <span></span>
           </div>
